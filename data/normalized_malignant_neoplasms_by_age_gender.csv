@@ -1,0 +1,865 @@
+year,gender,age_group,metric_type,value,level,is_aggregate
+2007,Total,All ages,absolute_cases,7027.0,0,True
+2007,Female,All ages,absolute_cases,3527.0,1,True
+2007,Male,All ages,absolute_cases,3500.0,1,True
+2007,Female,0-13,absolute_cases,21.0,2,False
+2007,Female,14-17,absolute_cases,25.0,2,False
+2007,Female,18-29,absolute_cases,99.0,2,False
+2007,Female,30-34,absolute_cases,120.0,2,False
+2007,Female,35-39,absolute_cases,209.0,2,False
+2007,Female,40-59,absolute_cases,1774.0,2,False
+2007,Female,60+,absolute_cases,1279.0,2,False
+2007,Male,0-13,absolute_cases,49.0,2,False
+2007,Male,14-17,absolute_cases,34.0,2,False
+2007,Male,18-29,absolute_cases,98.0,2,False
+2007,Male,30-34,absolute_cases,61.0,2,False
+2007,Male,35-39,absolute_cases,108.0,2,False
+2007,Male,40-59,absolute_cases,1442.0,2,False
+2007,Male,60+,absolute_cases,1708.0,2,False
+2007,Total,0-13,absolute_cases,70.0,2,True
+2007,Total,14-17,absolute_cases,59.0,2,True
+2007,Total,18-29,absolute_cases,197.0,2,True
+2007,Total,30-34,absolute_cases,181.0,2,True
+2007,Total,35-39,absolute_cases,317.0,2,True
+2007,Total,40-59,absolute_cases,3216.0,2,True
+2007,Total,60+,absolute_cases,2987.0,2,True
+2007,Total,All ages,rate_per_100000,81.68080902010927,0,True
+2007,Female,All ages,rate_per_100000,80.98551123969598,1,True
+2007,Male,All ages,rate_per_100000,82.39365333458886,1,True
+2007,Female,0-13,rate_per_100000,2.314304606568217,2,False
+2007,Female,14-17,rate_per_100000,6.892748828232699,2,False
+2007,Female,18-29,rate_per_100000,9.680258140217072,2,False
+2007,Female,30-34,rate_per_100000,37.267080745341616,2,False
+2007,Female,35-39,rate_per_100000,62.22089907710628,2,False
+2007,Female,40-59,rate_per_100000,166.7293233082707,2,False
+2007,Female,60+,rate_per_100000,317.7639751552795,2,False
+2007,Male,0-13,rate_per_100000,4.845248689805202,2,False
+2007,Male,14-17,rate_per_100000,9.073925807312518,2,False
+2007,Male,18-29,rate_per_100000,9.79706088173548,2,False
+2007,Male,30-34,rate_per_100000,19.728331177231567,2,False
+2007,Male,35-39,rate_per_100000,34.2748333862266,2,False
+2007,Male,40-59,rate_per_100000,145.33360209635154,2,False
+2007,Male,60+,rate_per_100000,563.6963696369637,2,False
+2007,Total,0-13,rate_per_100000,3.6483035388544325,2,True
+2007,Total,14-17,rate_per_100000,8.00108489286683,2,True
+2007,Total,18-29,rate_per_100000,9.738012852199704,2,True
+2007,Total,30-34,rate_per_100000,28.675538656527248,2,True
+2007,Total,35-39,rate_per_100000,48.694316436251924,2,True
+2007,Total,40-59,rate_per_100000,156.40501896702656,2,True
+2007,Total,60+,rate_per_100000,423.3876683203402,2,True
+2008,Total,All ages,absolute_cases,7377.0,0,True
+2008,Female,All ages,absolute_cases,3785.0,1,True
+2008,Male,All ages,absolute_cases,3592.0,1,True
+2008,Female,0-13,absolute_cases,49.0,2,False
+2008,Female,14-17,absolute_cases,30.0,2,False
+2008,Female,18-29,absolute_cases,87.0,2,False
+2008,Female,30-34,absolute_cases,89.0,2,False
+2008,Female,35-39,absolute_cases,214.0,2,False
+2008,Female,40-59,absolute_cases,1913.0,2,False
+2008,Female,60+,absolute_cases,1403.0,2,False
+2008,Male,0-13,absolute_cases,61.0,2,False
+2008,Male,14-17,absolute_cases,39.0,2,False
+2008,Male,18-29,absolute_cases,67.0,2,False
+2008,Male,30-34,absolute_cases,47.0,2,False
+2008,Male,35-39,absolute_cases,76.0,2,False
+2008,Male,40-59,absolute_cases,1458.0,2,False
+2008,Male,60+,absolute_cases,1844.0,2,False
+2008,Total,0-13,absolute_cases,110.0,2,True
+2008,Total,14-17,absolute_cases,69.0,2,True
+2008,Total,18-29,absolute_cases,154.0,2,True
+2008,Total,30-34,absolute_cases,136.0,2,True
+2008,Total,35-39,absolute_cases,290.0,2,True
+2008,Total,40-59,absolute_cases,3371.0,2,True
+2008,Total,60+,absolute_cases,3247.0,2,True
+2008,Total,All ages,rate_per_100000,84.61317887251248,0,True
+2008,Female,All ages,rate_per_100000,85.87050229139253,1,True
+2008,Male,All ages,rate_per_100000,83.32753381121395,1,True
+2008,Female,0-13,rate_per_100000,5.5006735518634935,2,False
+2008,Female,14-17,rate_per_100000,8.517887563884157,2,False
+2008,Female,18-29,rate_per_100000,8.307075336579777,2,False
+2008,Female,30-34,rate_per_100000,27.125876257238644,2,False
+2008,Female,35-39,rate_per_100000,64.51612903225806,2,False
+2008,Female,40-59,rate_per_100000,172.35787007838545,2,False
+2008,Female,60+,rate_per_100000,315.35176444144753,2,False
+2008,Male,0-13,rate_per_100000,6.082361152657294,2,False
+2008,Male,14-17,rate_per_100000,10.517799352750808,2,False
+2008,Male,18-29,rate_per_100000,6.5048543689320395,2,False
+2008,Male,30-34,rate_per_100000,14.715090795241078,2,False
+2008,Male,35-39,rate_per_100000,24.587512131996117,2,False
+2008,Male,40-59,rate_per_100000,141.82879377431908,2,False
+2008,Male,60+,rate_per_100000,563.5696821515893,2,False
+2008,Total,0-13,rate_per_100000,5.808734224005914,2,True
+2008,Total,14-17,rate_per_100000,9.54356846473029,2,True
+2008,Total,18-29,rate_per_100000,7.413469407403841,2,True
+2008,Total,30-34,rate_per_100000,21.003861003861005,2,True
+2008,Total,35-39,rate_per_100000,45.255930087390766,2,True
+2008,Total,40-59,rate_per_100000,157.67809532719025,2,True
+2008,Total,60+,rate_per_100000,420.5413806501748,2,True
+2009,Total,All ages,absolute_cases,7540.0,0,True
+2009,Female,All ages,absolute_cases,3847.0,1,True
+2009,Male,All ages,absolute_cases,3693.0,1,True
+2009,Female,0-13,absolute_cases,30.0,2,False
+2009,Female,14-17,absolute_cases,10.0,2,False
+2009,Female,18-29,absolute_cases,112.0,2,False
+2009,Female,30-34,absolute_cases,93.0,2,False
+2009,Female,35-39,absolute_cases,182.0,2,False
+2009,Female,40-59,absolute_cases,1968.0,2,False
+2009,Female,60+,absolute_cases,1452.0,2,False
+2009,Male,0-13,absolute_cases,69.0,2,False
+2009,Male,14-17,absolute_cases,27.0,2,False
+2009,Male,18-29,absolute_cases,119.0,2,False
+2009,Male,30-34,absolute_cases,59.0,2,False
+2009,Male,35-39,absolute_cases,118.0,2,False
+2009,Male,40-59,absolute_cases,1550.0,2,False
+2009,Male,60+,absolute_cases,1751.0,2,False
+2009,Total,0-13,absolute_cases,99.0,2,True
+2009,Total,14-17,absolute_cases,37.0,2,True
+2009,Total,18-29,absolute_cases,231.0,2,True
+2009,Total,30-34,absolute_cases,152.0,2,True
+2009,Total,35-39,absolute_cases,300.0,2,True
+2009,Total,40-59,absolute_cases,3518.0,2,True
+2009,Total,60+,absolute_cases,3203.0,2,True
+2009,Total,All ages,rate_per_100000,85.41683187384592,0,True
+2009,Female,All ages,rate_per_100000,86.30785453076975,1,True
+2009,Male,All ages,rate_per_100000,84.50800915331807,1,True
+2009,Female,0-13,rate_per_100000,3.413746017296313,2,False
+2009,Female,14-17,rate_per_100000,2.9403116730373418,2,False
+2009,Female,18-29,rate_per_100000,10.505581089954038,2,False
+2009,Female,30-34,rate_per_100000,27.44982290436836,2,False
+2009,Female,35-39,rate_per_100000,55.96555965559655,2,False
+2009,Female,40-59,rate_per_100000,170.8926710663425,2,False
+2009,Female,60+,rate_per_100000,346.7048710601719,2,False
+2009,Male,0-13,rate_per_100000,6.926320016061031,2,False
+2009,Male,14-17,rate_per_100000,7.440066133921191,2,False
+2009,Male,18-29,rate_per_100000,11.31931893845715,2,False
+2009,Male,30-34,rate_per_100000,17.712398679075353,2,False
+2009,Male,35-39,rate_per_100000,38.777522182057176,2,False
+2009,Male,40-59,rate_per_100000,145.7177775688634,2,False
+2009,Male,60+,rate_per_100000,553.4134007585336,2,False
+2009,Total,0-13,rate_per_100000,5.28,2,True
+2009,Total,14-17,rate_per_100000,5.263157894736842,2,True
+2009,Total,18-29,rate_per_100000,10.909606120714082,2,True
+2009,Total,30-34,rate_per_100000,22.62241404970978,2,True
+2009,Total,35-39,rate_per_100000,47.65687053216839,2,True
+2009,Total,40-59,rate_per_100000,158.80467656750776,2,True
+2009,Total,60+,rate_per_100000,435.66376496191504,2,True
+2010,Total,All ages,absolute_cases,7626.0,0,True
+2010,Female,All ages,absolute_cases,3870.0,1,True
+2010,Male,All ages,absolute_cases,3756.0,1,True
+2010,Female,0-13,absolute_cases,24.0,2,False
+2010,Female,14-17,absolute_cases,14.0,2,False
+2010,Female,18-29,absolute_cases,88.0,2,False
+2010,Female,30-34,absolute_cases,107.0,2,False
+2010,Female,35-39,absolute_cases,178.0,2,False
+2010,Female,40-59,absolute_cases,1978.0,2,False
+2010,Female,60+,absolute_cases,1481.0,2,False
+2010,Male,0-13,absolute_cases,41.0,2,False
+2010,Male,14-17,absolute_cases,20.0,2,False
+2010,Male,18-29,absolute_cases,96.0,2,False
+2010,Male,30-34,absolute_cases,55.0,2,False
+2010,Male,35-39,absolute_cases,91.0,2,False
+2010,Male,40-59,absolute_cases,1680.0,2,False
+2010,Male,60+,absolute_cases,1773.0,2,False
+2010,Total,0-13,absolute_cases,65.0,2,True
+2010,Total,14-17,absolute_cases,34.0,2,True
+2010,Total,18-29,absolute_cases,184.0,2,True
+2010,Total,30-34,absolute_cases,162.0,2,True
+2010,Total,35-39,absolute_cases,269.0,2,True
+2010,Total,40-59,absolute_cases,3658.0,2,True
+2010,Total,60+,absolute_cases,3254.0,2,True
+2010,Total,All ages,rate_per_100000,85.3564353111044,0,True
+2010,Female,All ages,rate_per_100000,85.8873920859318,1,True
+2010,Male,All ages,rate_per_100000,84.81618643302322,1,True
+2010,Female,0-13,rate_per_100000,2.7416038382453736,2,False
+2010,Female,14-17,rate_per_100000,4.287901990811639,2,False
+2010,Female,18-29,rate_per_100000,8.170844939647168,2,False
+2010,Female,30-34,rate_per_100000,30.484330484330485,2,False
+2010,Female,35-39,rate_per_100000,55.53822152886115,2,False
+2010,Female,40-59,rate_per_100000,166.7228590694538,2,False
+2010,Female,60+,rate_per_100000,343.4601113172542,2,False
+2010,Male,0-13,rate_per_100000,4.107804829175434,2,False
+2010,Male,14-17,rate_per_100000,5.691519635742743,2,False
+2010,Male,18-29,rate_per_100000,8.996345234748384,2,False
+2010,Male,30-34,rate_per_100000,15.822784810126581,2,False
+2010,Male,35-39,rate_per_100000,30.222517436067754,2,False
+2010,Male,40-59,rate_per_100000,153.63511659807955,2,False
+2010,Male,60+,rate_per_100000,541.3740458015267,2,False
+2010,Total,0-13,rate_per_100000,3.469442220443021,2,True
+2010,Total,14-17,rate_per_100000,5.015489010178493,2,True
+2010,Total,18-29,rate_per_100000,8.581689286880277,2,True
+2010,Total,30-34,rate_per_100000,23.189235614085316,2,True
+2010,Total,35-39,rate_per_100000,43.275418275418275,2,True
+2010,Total,40-59,rate_per_100000,160.44563358042018,2,True
+2010,Total,60+,rate_per_100000,428.89152497693425,2,True
+2011,Total,All ages,absolute_cases,8672.0,0,True
+2011,Female,All ages,absolute_cases,4439.0,1,True
+2011,Male,All ages,absolute_cases,4233.0,1,True
+2011,Female,0-13,absolute_cases,25.0,2,False
+2011,Female,14-17,absolute_cases,13.0,2,False
+2011,Female,18-29,absolute_cases,118.0,2,False
+2011,Female,30-34,absolute_cases,113.0,2,False
+2011,Female,35-39,absolute_cases,197.0,2,False
+2011,Female,40-59,absolute_cases,2300.0,2,False
+2011,Female,60+,absolute_cases,1673.0,2,False
+2011,Male,0-13,absolute_cases,46.0,2,False
+2011,Male,14-17,absolute_cases,17.0,2,False
+2011,Male,18-29,absolute_cases,113.0,2,False
+2011,Male,30-34,absolute_cases,62.0,2,False
+2011,Male,35-39,absolute_cases,102.0,2,False
+2011,Male,40-59,absolute_cases,1791.0,2,False
+2011,Male,60+,absolute_cases,2102.0,2,False
+2011,Total,0-13,absolute_cases,71.0,2,True
+2011,Total,14-17,absolute_cases,30.0,2,True
+2011,Total,18-29,absolute_cases,231.0,2,True
+2011,Total,30-34,absolute_cases,175.0,2,True
+2011,Total,35-39,absolute_cases,299.0,2,True
+2011,Total,40-59,absolute_cases,4091.0,2,True
+2011,Total,60+,absolute_cases,3775.0,2,True
+2011,Total,All ages,rate_per_100000,95.79039224133169,0,True
+2011,Female,All ages,rate_per_100000,97.33154998136251,1,True
+2011,Male,All ages,rate_per_100000,94.2258035793785,1,True
+2011,Female,0-13,rate_per_100000,2.8270948773040825,2,False
+2011,Female,14-17,rate_per_100000,4.20575865415723,2,False
+2011,Female,18-29,rate_per_100000,10.878583940259979,2,False
+2011,Female,30-34,rate_per_100000,31.086657496561216,2,False
+2011,Female,35-39,rate_per_100000,61.658841940532085,2,False
+2011,Female,40-59,rate_per_100000,189.14473684210526,2,False
+2011,Female,60+,rate_per_100000,375.3645950190711,2,False
+2011,Male,0-13,rate_per_100000,4.543658632951403,2,False
+2011,Male,14-17,rate_per_100000,5.062537224538414,2,False
+2011,Male,18-29,rate_per_100000,10.465870149115494,2,False
+2011,Male,30-34,rate_per_100000,17.16975906950983,2,False
+2011,Male,35-39,rate_per_100000,33.696729435084244,2,False
+2011,Male,40-59,rate_per_100000,159.99642665713773,2,False
+2011,Male,60+,rate_per_100000,619.6933962264152,2,False
+2011,Total,0-13,rate_per_100000,3.7433437022196445,2,True
+2011,Total,14-17,rate_per_100000,4.651884013025275,2,True
+2011,Total,18-29,rate_per_100000,10.672703751617076,2,True
+2011,Total,30-34,rate_per_100000,24.151255865305,2,True
+2011,Total,35-39,rate_per_100000,48.05528768884603,2,True
+2011,Total,40-59,rate_per_100000,175.17341782992207,2,True
+2011,Total,60+,rate_per_100000,480.9529876417378,2,True
+2012,Total,All ages,absolute_cases,8645.0,0,True
+2012,Female,All ages,absolute_cases,4384.0,1,True
+2012,Male,All ages,absolute_cases,4261.0,1,True
+2012,Female,0-13,absolute_cases,34.0,2,False
+2012,Female,14-17,absolute_cases,9.0,2,False
+2012,Female,18-29,absolute_cases,113.0,2,False
+2012,Female,30-34,absolute_cases,115.0,2,False
+2012,Female,35-39,absolute_cases,218.0,2,False
+2012,Female,40-59,absolute_cases,2284.0,2,False
+2012,Female,60+,absolute_cases,1611.0,2,False
+2012,Male,0-13,absolute_cases,39.0,2,False
+2012,Male,14-17,absolute_cases,22.0,2,False
+2012,Male,18-29,absolute_cases,126.0,2,False
+2012,Male,30-34,absolute_cases,65.0,2,False
+2012,Male,35-39,absolute_cases,106.0,2,False
+2012,Male,40-59,absolute_cases,1879.0,2,False
+2012,Male,60+,absolute_cases,2024.0,2,False
+2012,Total,0-13,absolute_cases,73.0,2,True
+2012,Total,14-17,absolute_cases,31.0,2,True
+2012,Total,18-29,absolute_cases,239.0,2,True
+2012,Total,30-34,absolute_cases,180.0,2,True
+2012,Total,35-39,absolute_cases,324.0,2,True
+2012,Total,40-59,absolute_cases,4163.0,2,True
+2012,Total,60+,absolute_cases,3635.0,2,True
+2012,Total,All ages,rate_per_100000,94.2,0,True
+2012,Female,All ages,rate_per_100000,94.9,1,True
+2012,Male,All ages,rate_per_100000,93.5,1,True
+2012,Female,0-13,rate_per_100000,3.7811387900355866,2,False
+2012,Female,14-17,rate_per_100000,3.103448275862069,2,False
+2012,Female,18-29,rate_per_100000,10.373634444138439,2,False
+2012,Female,30-34,rate_per_100000,30.487804878048784,2,False
+2012,Female,35-39,rate_per_100000,67.70186335403726,2,False
+2012,Female,40-59,rate_per_100000,183.94137070145766,2,False
+2012,Female,60+,rate_per_100000,350.0651890482399,2,False
+2012,Male,0-13,rate_per_100000,3.777239709443099,2,False
+2012,Male,14-17,rate_per_100000,6.918238993710692,2,False
+2012,Male,18-29,rate_per_100000,11.554332874828061,2,False
+2012,Male,30-34,rate_per_100000,17.351841964762414,2,False
+2012,Male,35-39,rate_per_100000,34.41558441558442,2,False
+2012,Male,40-59,rate_per_100000,164.65124430424115,2,False
+2012,Male,60+,rate_per_100000,575.9817871371656,2,False
+2012,Total,0-13,rate_per_100000,3.7790547186416115,2,True
+2012,Total,14-17,rate_per_100000,5.098684210526316,2,True
+2012,Total,18-29,rate_per_100000,10.964308652169922,2,True
+2012,Total,30-34,rate_per_100000,23.94253790901836,2,True
+2012,Total,35-39,rate_per_100000,51.42857142857142,2,True
+2012,Total,40-59,rate_per_100000,174.70309287003232,2,True
+2012,Total,60+,rate_per_100000,447.88072942336123,2,True
+2013,Total,All ages,absolute_cases,9064.0,0,True
+2013,Female,All ages,absolute_cases,4659.0,1,True
+2013,Male,All ages,absolute_cases,4405.0,1,True
+2013,Female,0-13,absolute_cases,29.0,2,False
+2013,Female,14-17,absolute_cases,21.0,2,False
+2013,Female,18-29,absolute_cases,109.0,2,False
+2013,Female,30-34,absolute_cases,110.0,2,False
+2013,Female,35-39,absolute_cases,206.0,2,False
+2013,Female,40-59,absolute_cases,2443.0,2,False
+2013,Female,60+,absolute_cases,1741.0,2,False
+2013,Male,0-13,absolute_cases,63.0,2,False
+2013,Male,14-17,absolute_cases,17.0,2,False
+2013,Male,18-29,absolute_cases,114.0,2,False
+2013,Male,30-34,absolute_cases,86.0,2,False
+2013,Male,35-39,absolute_cases,102.0,2,False
+2013,Male,40-59,absolute_cases,1899.0,2,False
+2013,Male,60+,absolute_cases,2124.0,2,False
+2013,Total,0-13,absolute_cases,92.0,2,True
+2013,Total,14-17,absolute_cases,38.0,2,True
+2013,Total,18-29,absolute_cases,223.0,2,True
+2013,Total,30-34,absolute_cases,196.0,2,True
+2013,Total,35-39,absolute_cases,308.0,2,True
+2013,Total,40-59,absolute_cases,4342.0,2,True
+2013,Total,60+,absolute_cases,3865.0,2,True
+2013,Total,All ages,rate_per_100000,97.49591257206781,0,True
+2013,Female,All ages,rate_per_100000,99.68974002353697,1,True
+2013,Male,All ages,rate_per_100000,95.27826444314667,1,True
+2013,Female,0-13,rate_per_100000,3.172172391161671,2,False
+2013,Female,14-17,rate_per_100000,7.650273224043716,2,False
+2013,Female,18-29,rate_per_100000,10.040530582166545,2,False
+2013,Female,30-34,rate_per_100000,28.039765485597755,2,False
+2013,Female,35-39,rate_per_100000,62.939199511151855,2,False
+2013,Female,40-59,rate_per_100000,193.15306767868438,2,False
+2013,Female,60+,rate_per_100000,365.06605158314113,2,False
+2013,Male,0-13,rate_per_100000,5.988023952095809,2,False
+2013,Male,14-17,rate_per_100000,5.6105610561056105,2,False
+2013,Male,18-29,rate_per_100000,10.408107367844424,2,False
+2013,Male,30-34,rate_per_100000,22.216481529320586,2,False
+2013,Male,35-39,rate_per_100000,32.14623384809329,2,False
+2013,Male,40-59,rate_per_100000,163.5236373030225,2,False
+2013,Male,60+,rate_per_100000,581.7584223500411,2,False
+2013,Total,0-13,rate_per_100000,4.6788384275034325,2,True
+2013,Total,14-17,rate_per_100000,6.58008658008658,2,True
+2013,Total,18-29,rate_per_100000,10.225136411573207,2,True
+2013,Total,30-34,rate_per_100000,25.14754939697203,2,True
+2013,Total,35-39,rate_per_100000,47.781569965870304,2,True
+2013,Total,40-59,rate_per_100000,178.97036395861667,2,True
+2013,Total,60+,rate_per_100000,459.0261282660334,2,True
+2014,Total,All ages,absolute_cases,9543.0,0,True
+2014,Female,All ages,absolute_cases,4930.0,1,True
+2014,Male,All ages,absolute_cases,4613.0,1,True
+2014,Female,0-13,absolute_cases,26.0,2,False
+2014,Female,14-17,absolute_cases,11.0,2,False
+2014,Female,18-29,absolute_cases,105.0,2,False
+2014,Female,30-34,absolute_cases,101.0,2,False
+2014,Female,35-39,absolute_cases,216.0,2,False
+2014,Female,40-59,absolute_cases,2438.0,2,False
+2014,Female,60+,absolute_cases,2033.0,2,False
+2014,Male,0-13,absolute_cases,55.0,2,False
+2014,Male,14-17,absolute_cases,17.0,2,False
+2014,Male,18-29,absolute_cases,86.0,2,False
+2014,Male,30-34,absolute_cases,72.0,2,False
+2014,Male,35-39,absolute_cases,105.0,2,False
+2014,Male,40-59,absolute_cases,1961.0,2,False
+2014,Male,60+,absolute_cases,2317.0,2,False
+2014,Total,0-13,absolute_cases,81.0,2,True
+2014,Total,14-17,absolute_cases,28.0,2,True
+2014,Total,18-29,absolute_cases,191.0,2,True
+2014,Total,30-34,absolute_cases,173.0,2,True
+2014,Total,35-39,absolute_cases,321.0,2,True
+2014,Total,40-59,absolute_cases,4399.0,2,True
+2014,Total,60+,absolute_cases,4350.0,2,True
+2014,Total,All ages,rate_per_100000,101.35845609712058,0,True
+2014,Female,All ages,rate_per_100000,104.2658037772561,1,True
+2014,Male,All ages,rate_per_100000,98.42536485448493,1,True
+2014,Female,0-13,rate_per_100000,2.7926960257787328,2,False
+2014,Female,14-17,rate_per_100000,4.216174779609045,2,False
+2014,Female,18-29,rate_per_100000,9.781089892873778,2,False
+2014,Female,30-34,rate_per_100000,24.870721497168184,2,False
+2014,Female,35-39,rate_per_100000,63.962096535386436,2,False
+2014,Female,40-59,rate_per_100000,189.68334241033222,2,False
+2014,Female,60+,rate_per_100000,409.9616858237548,2,False
+2014,Male,0-13,rate_per_100000,5.126771066368382,2,False
+2014,Male,14-17,rate_per_100000,5.843932622894466,2,False
+2014,Male,18-29,rate_per_100000,7.873294882358326,2,False
+2014,Male,30-34,rate_per_100000,18.085908063300675,2,False
+2014,Male,35-39,rate_per_100000,31.750831569398247,2,False
+2014,Male,40-59,rate_per_100000,166.4685908319185,2,False
+2014,Male,60+,rate_per_100000,606.7033254778738,2,False
+2014,Total,0-13,rate_per_100000,4.04231959277373,2,True
+2014,Total,14-17,rate_per_100000,5.074302283436028,2,True
+2014,Total,18-29,rate_per_100000,8.818912180256717,2,True
+2014,Total,30-34,rate_per_100000,21.51206167619995,2,True
+2014,Total,35-39,rate_per_100000,48.025134649910235,2,True
+2014,Total,40-59,rate_per_100000,178.58157755855964,2,True
+2014,Total,60+,rate_per_100000,495.55707450444294,2,True
+2015,Total,All ages,absolute_cases,10183.0,0,True
+2015,Female,All ages,absolute_cases,5216.0,1,True
+2015,Male,All ages,absolute_cases,4967.0,1,True
+2015,Female,0-13,absolute_cases,47.0,2,False
+2015,Female,14-17,absolute_cases,13.0,2,False
+2015,Female,18-29,absolute_cases,146.0,2,False
+2015,Female,30-34,absolute_cases,154.0,2,False
+2015,Female,35-39,absolute_cases,248.0,2,False
+2015,Female,40-59,absolute_cases,2729.0,2,False
+2015,Female,60+,absolute_cases,1879.0,2,False
+2015,Male,0-13,absolute_cases,66.0,2,False
+2015,Male,14-17,absolute_cases,11.0,2,False
+2015,Male,18-29,absolute_cases,143.0,2,False
+2015,Male,30-34,absolute_cases,87.0,2,False
+2015,Male,35-39,absolute_cases,110.0,2,False
+2015,Male,40-59,absolute_cases,2162.0,2,False
+2015,Male,60+,absolute_cases,2388.0,2,False
+2015,Total,0-13,absolute_cases,113.0,2,True
+2015,Total,14-17,absolute_cases,24.0,2,True
+2015,Total,18-29,absolute_cases,289.0,2,True
+2015,Total,30-34,absolute_cases,241.0,2,True
+2015,Total,35-39,absolute_cases,358.0,2,True
+2015,Total,40-59,absolute_cases,4891.0,2,True
+2015,Total,60+,absolute_cases,4267.0,2,True
+2015,Total,All ages,rate_per_100000,106.85943550556118,0,True
+2015,Female,All ages,rate_per_100000,109.08710655651991,1,True
+2015,Male,All ages,rate_per_100000,104.61687518429588,1,True
+2015,Female,0-13,rate_per_100000,4.951772892730903,2,False
+2015,Female,14-17,rate_per_100000,5.181264547396614,2,False
+2015,Female,18-29,rate_per_100000,13.889523113688602,2,False
+2015,Female,30-34,rate_per_100000,36.71220728570441,2,False
+2015,Female,35-39,rate_per_100000,70.8577502092875,2,False
+2015,Female,40-59,rate_per_100000,209.53607990165855,2,False
+2015,Female,60+,rate_per_100000,360.9962651583849,2,False
+2015,Male,0-13,rate_per_100000,6.034440195954731,2,False
+2015,Male,14-17,rate_per_100000,3.8992020814649653,2,False
+2015,Male,18-29,rate_per_100000,13.242052684849334,2,False
+2015,Male,30-34,rate_per_100000,21.271185611876657,2,False
+2015,Male,35-39,rate_per_100000,31.872602311053416,2,False
+2015,Male,40-59,rate_per_100000,181.21499541514328,2,False
+2015,Male,60+,rate_per_100000,592.7926541372608,2,False
+2015,Total,0-13,rate_per_100000,5.531414764569771,2,True
+2015,Total,14-17,rate_per_100000,4.502704436852384,2,True
+2015,Total,18-29,rate_per_100000,13.561421743792364,2,True
+2015,Total,30-34,rate_per_100000,29.08931142823691,2,True
+2015,Total,35-39,rate_per_100000,51.50182486214631,2,True
+2015,Total,40-59,rate_per_100000,195.9960071473825,2,True
+2015,Total,60+,rate_per_100000,462.1251257658313,2,True
+2016,Total,All ages,absolute_cases,10807.0,0,True
+2016,Female,All ages,absolute_cases,5572.0,1,True
+2016,Male,All ages,absolute_cases,5235.0,1,True
+2016,Female,0-13,absolute_cases,46.0,2,False
+2016,Female,14-17,absolute_cases,10.0,2,False
+2016,Female,18-29,absolute_cases,150.0,2,False
+2016,Female,30-34,absolute_cases,151.0,2,False
+2016,Female,35-39,absolute_cases,248.0,2,False
+2016,Female,40-59,absolute_cases,2737.0,2,False
+2016,Female,60+,absolute_cases,2230.0,2,False
+2016,Male,0-13,absolute_cases,38.0,2,False
+2016,Male,14-17,absolute_cases,27.0,2,False
+2016,Male,18-29,absolute_cases,177.0,2,False
+2016,Male,30-34,absolute_cases,119.0,2,False
+2016,Male,35-39,absolute_cases,127.0,2,False
+2016,Male,40-59,absolute_cases,2047.0,2,False
+2016,Male,60+,absolute_cases,2700.0,2,False
+2016,Total,0-13,absolute_cases,84.0,2,True
+2016,Total,14-17,absolute_cases,37.0,2,True
+2016,Total,18-29,absolute_cases,327.0,2,True
+2016,Total,30-34,absolute_cases,270.0,2,True
+2016,Total,35-39,absolute_cases,375.0,2,True
+2016,Total,40-59,absolute_cases,4784.0,2,True
+2016,Total,60+,absolute_cases,4930.0,2,True
+2016,Total,All ages,rate_per_100000,112.13139928199382,0,True
+2016,Female,All ages,rate_per_100000,115.30741054984168,1,True
+2016,Male,All ages,rate_per_100000,108.93767558006451,1,True
+2016,Female,0-13,rate_per_100000,4.763310086309107,2,False
+2016,Female,14-17,rate_per_100000,4.0958762717695825,2,False
+2016,Female,18-29,rate_per_100000,14.667330281876753,2,False
+2016,Female,30-34,rate_per_100000,34.791664746596865,2,False
+2016,Female,35-39,rate_per_100000,68.44192509472859,2,False
+2016,Female,40-59,rate_per_100000,207.9505963479104,2,False
+2016,Female,60+,rate_per_100000,405.97049704988706,2,False
+2016,Male,0-13,rate_per_100000,3.41750897770615,2,False
+2016,Male,14-17,rate_per_100000,9.766472784095843,2,False
+2016,Male,18-29,rate_per_100000,16.68059857903918,2,False
+2016,Male,30-34,rate_per_100000,28.261334219963427,2,False
+2016,Male,35-39,rate_per_100000,35.398427417893764,2,False
+2016,Male,40-59,rate_per_100000,169.6894939240882,2,False
+2016,Male,60+,rate_per_100000,631.1773561616935,2,False
+2016,Total,0-13,rate_per_100000,4.043056627821236,2,True
+2016,Total,14-17,rate_per_100000,7.107129411222349,2,True
+2016,Total,18-29,rate_per_100000,15.69253006775142,2,True
+2016,Total,30-34,rate_per_100000,31.57591903466568,2,True
+2016,Total,35-39,rate_per_100000,52.00215219573887,2,True
+2016,Total,40-59,rate_per_100000,189.65319708749144,2,True
+2016,Total,60+,rate_per_100000,504.56823594552304,2,True
+2017,Total,All ages,absolute_cases,11192.0,0,True
+2017,Female,All ages,absolute_cases,5777.0,1,True
+2017,Male,All ages,absolute_cases,5415.0,1,True
+2017,Female,0-13,absolute_cases,43.0,2,False
+2017,Female,14-17,absolute_cases,18.0,2,False
+2017,Female,18-29,absolute_cases,135.0,2,False
+2017,Female,30-34,absolute_cases,157.0,2,False
+2017,Female,35-39,absolute_cases,243.0,2,False
+2017,Female,40-59,absolute_cases,2946.0,2,False
+2017,Female,60+,absolute_cases,2235.0,2,False
+2017,Male,0-13,absolute_cases,56.0,2,False
+2017,Male,14-17,absolute_cases,13.0,2,False
+2017,Male,18-29,absolute_cases,144.0,2,False
+2017,Male,30-34,absolute_cases,93.0,2,False
+2017,Male,35-39,absolute_cases,137.0,2,False
+2017,Male,40-59,absolute_cases,2175.0,2,False
+2017,Male,60+,absolute_cases,2797.0,2,False
+2017,Total,0-13,absolute_cases,99.0,2,True
+2017,Total,14-17,absolute_cases,31.0,2,True
+2017,Total,18-29,absolute_cases,279.0,2,True
+2017,Total,30-34,absolute_cases,250.0,2,True
+2017,Total,35-39,absolute_cases,380.0,2,True
+2017,Total,40-59,absolute_cases,5121.0,2,True
+2017,Total,60+,absolute_cases,5032.0,2,True
+2017,Total,All ages,rate_per_100000,114.97842613519622,0,True
+2017,Female,All ages,rate_per_100000,118.44668156562032,1,True
+2017,Male,All ages,rate_per_100000,111.49545988016555,1,True
+2017,Female,0-13,rate_per_100000,4.4,2,False
+2017,Female,14-17,rate_per_100000,7.5,2,False
+2017,Female,18-29,rate_per_100000,13.6,2,False
+2017,Female,30-34,rate_per_100000,35.0,2,False
+2017,Female,35-39,rate_per_100000,64.6,2,False
+2017,Female,40-59,rate_per_100000,222.2,2,False
+2017,Female,60+,rate_per_100000,384.6,2,False
+2017,Male,0-13,rate_per_100000,5.0,2,False
+2017,Male,14-17,rate_per_100000,4.8,2,False
+2017,Male,18-29,rate_per_100000,13.8,2,False
+2017,Male,30-34,rate_per_100000,21.4,2,False
+2017,Male,35-39,rate_per_100000,36.8,2,False
+2017,Male,40-59,rate_per_100000,178.8,2,False
+2017,Male,60+,rate_per_100000,614.3,2,False
+2017,Total,0-13,rate_per_100000,4.7,2,True
+2017,Total,14-17,rate_per_100000,6.0,2,True
+2017,Total,18-29,rate_per_100000,13.7,2,True
+2017,Total,30-34,rate_per_100000,28.3,2,True
+2017,Total,35-39,rate_per_100000,50.8,2,True
+2017,Total,40-59,rate_per_100000,201.4,2,True
+2017,Total,60+,rate_per_100000,485.5,2,True
+2018,Total,All ages,absolute_cases,11123.0,0,True
+2018,Female,All ages,absolute_cases,5655.0,1,True
+2018,Male,All ages,absolute_cases,5468.0,1,True
+2018,Female,0-13,absolute_cases,38.0,2,False
+2018,Female,14-17,absolute_cases,6.0,2,False
+2018,Female,18-29,absolute_cases,117.0,2,False
+2018,Female,30-34,absolute_cases,161.0,2,False
+2018,Female,35-39,absolute_cases,254.0,2,False
+2018,Female,40-59,absolute_cases,2753.0,2,False
+2018,Female,60+,absolute_cases,2326.0,2,False
+2018,Male,0-13,absolute_cases,65.0,2,False
+2018,Male,14-17,absolute_cases,15.0,2,False
+2018,Male,18-29,absolute_cases,126.0,2,False
+2018,Male,30-34,absolute_cases,93.0,2,False
+2018,Male,35-39,absolute_cases,112.0,2,False
+2018,Male,40-59,absolute_cases,2083.0,2,False
+2018,Male,60+,absolute_cases,2974.0,2,False
+2018,Total,0-13,absolute_cases,103.0,2,True
+2018,Total,14-17,absolute_cases,21.0,2,True
+2018,Total,18-29,absolute_cases,243.0,2,True
+2018,Total,30-34,absolute_cases,254.0,2,True
+2018,Total,35-39,absolute_cases,366.0,2,True
+2018,Total,40-59,absolute_cases,4836.0,2,True
+2018,Total,60+,absolute_cases,5300.0,2,True
+2018,Total,All ages,rate_per_100000,113.3,0,True
+2018,Female,All ages,rate_per_100000,115.0,1,True
+2018,Male,All ages,rate_per_100000,111.5,1,True
+2018,Female,0-13,rate_per_100000,3.9,2,False
+2018,Female,14-17,rate_per_100000,2.5,2,False
+2018,Female,18-29,rate_per_100000,12.2,2,False
+2018,Female,30-34,rate_per_100000,35.0,2,False
+2018,Female,35-39,rate_per_100000,65.0,2,False
+2018,Female,40-59,rate_per_100000,206.6,2,False
+2018,Female,60+,rate_per_100000,376.0,2,False
+2018,Male,0-13,rate_per_100000,5.8,2,False
+2018,Male,14-17,rate_per_100000,5.5,2,False
+2018,Male,18-29,rate_per_100000,12.4,2,False
+2018,Male,30-34,rate_per_100000,20.8,2,False
+2018,Male,35-39,rate_per_100000,29.1,2,False
+2018,Male,40-59,rate_per_100000,170.0,2,False
+2018,Male,60+,rate_per_100000,610.3,2,False
+2018,Total,0-13,rate_per_100000,4.9,2,True
+2018,Total,14-17,rate_per_100000,4.1,2,True
+2018,Total,18-29,rate_per_100000,12.3,2,True
+2018,Total,30-34,rate_per_100000,28.0,2,True
+2018,Total,35-39,rate_per_100000,47.2,2,True
+2018,Total,40-59,rate_per_100000,189.0,2,True
+2018,Total,60+,rate_per_100000,479.2,2,True
+2019,Total,All ages,absolute_cases,12107.0,0,True
+2019,Female,All ages,absolute_cases,6300.0,1,True
+2019,Male,All ages,absolute_cases,5807.0,1,True
+2019,Female,0-13,absolute_cases,49.0,2,False
+2019,Female,14-17,absolute_cases,15.0,2,False
+2019,Female,18-29,absolute_cases,137.0,2,False
+2019,Female,30-34,absolute_cases,186.0,2,False
+2019,Female,35-39,absolute_cases,279.0,2,False
+2019,Female,40-59,absolute_cases,3079.0,2,False
+2019,Female,60+,absolute_cases,2555.0,2,False
+2019,Male,0-13,absolute_cases,80.0,2,False
+2019,Male,14-17,absolute_cases,23.0,2,False
+2019,Male,18-29,absolute_cases,100.0,2,False
+2019,Male,30-34,absolute_cases,110.0,2,False
+2019,Male,35-39,absolute_cases,135.0,2,False
+2019,Male,40-59,absolute_cases,2282.0,2,False
+2019,Male,60+,absolute_cases,3077.0,2,False
+2019,Total,0-13,absolute_cases,129.0,2,True
+2019,Total,14-17,absolute_cases,38.0,2,True
+2019,Total,18-29,absolute_cases,237.0,2,True
+2019,Total,30-34,absolute_cases,296.0,2,True
+2019,Total,35-39,absolute_cases,414.0,2,True
+2019,Total,40-59,absolute_cases,5361.0,2,True
+2019,Total,60+,absolute_cases,5632.0,2,True
+2019,Total,All ages,rate_per_100000,121.9,0,True
+2019,Female,All ages,rate_per_100000,126.2,1,True
+2019,Male,All ages,rate_per_100000,117.6,1,True
+2019,Female,0-13,rate_per_100000,4.8,2,False
+2019,Female,14-17,rate_per_100000,6.0,2,False
+2019,Female,18-29,rate_per_100000,14.6,2,False
+2019,Female,30-34,rate_per_100000,39.8,2,False
+2019,Female,35-39,rate_per_100000,70.9,2,False
+2019,Female,40-59,rate_per_100000,241.6,2,False
+2019,Female,60+,rate_per_100000,387.7,2,False
+2019,Male,0-13,rate_per_100000,6.9,2,False
+2019,Male,14-17,rate_per_100000,8.0,2,False
+2019,Male,18-29,rate_per_100000,10.9,2,False
+2019,Male,30-34,rate_per_100000,24.5,2,False
+2019,Male,35-39,rate_per_100000,34.6,2,False
+2019,Male,40-59,rate_per_100000,190.5,2,False
+2019,Male,60+,rate_per_100000,575.3,2,False
+2019,Total,0-13,rate_per_100000,5.9,2,True
+2019,Total,14-17,rate_per_100000,7.0,2,True
+2019,Total,18-29,rate_per_100000,12.8,2,True
+2019,Total,30-34,rate_per_100000,32.3,2,True
+2019,Total,35-39,rate_per_100000,52.8,2,True
+2019,Total,40-59,rate_per_100000,216.9,2,True
+2019,Total,60+,rate_per_100000,471.8,2,True
+2020,Total,All ages,absolute_cases,11595.0,0,True
+2020,Female,All ages,absolute_cases,5954.0,1,True
+2020,Male,All ages,absolute_cases,5641.0,1,True
+2020,Female,0-13,absolute_cases,49.0,2,False
+2020,Female,14-17,absolute_cases,23.0,2,False
+2020,Female,18-29,absolute_cases,114.0,2,False
+2020,Female,30-34,absolute_cases,149.0,2,False
+2020,Female,35-39,absolute_cases,261.0,2,False
+2020,Female,40-59,absolute_cases,2780.0,2,False
+2020,Female,60+,absolute_cases,2578.0,2,False
+2020,Male,0-13,absolute_cases,68.0,2,False
+2020,Male,14-17,absolute_cases,32.0,2,False
+2020,Male,18-29,absolute_cases,115.0,2,False
+2020,Male,30-34,absolute_cases,102.0,2,False
+2020,Male,35-39,absolute_cases,119.0,2,False
+2020,Male,40-59,absolute_cases,2020.0,2,False
+2020,Male,60+,absolute_cases,3185.0,2,False
+2020,Total,0-13,absolute_cases,117.0,2,True
+2020,Total,14-17,absolute_cases,55.0,2,True
+2020,Total,18-29,absolute_cases,229.0,2,True
+2020,Total,30-34,absolute_cases,251.0,2,True
+2020,Total,35-39,absolute_cases,380.0,2,True
+2020,Total,40-59,absolute_cases,4800.0,2,True
+2020,Total,60+,absolute_cases,5763.0,2,True
+2020,Total,All ages,rate_per_100000,115.9,0,True
+2020,Female,All ages,rate_per_100000,118.5,1,True
+2020,Male,All ages,rate_per_100000,113.4,1,True
+2020,Female,0-13,rate_per_100000,4.9,2,False
+2020,Female,14-17,rate_per_100000,8.8,2,False
+2020,Female,18-29,rate_per_100000,12.7,2,False
+2020,Female,30-34,rate_per_100000,31.2,2,False
+2020,Female,35-39,rate_per_100000,64.1,2,False
+2020,Female,40-59,rate_per_100000,217.0,2,False
+2020,Female,60+,rate_per_100000,368.3,2,False
+2020,Male,0-13,rate_per_100000,5.9,2,False
+2020,Male,14-17,rate_per_100000,10.6,2,False
+2020,Male,18-29,rate_per_100000,12.9,2,False
+2020,Male,30-34,rate_per_100000,22.4,2,False
+2020,Male,35-39,rate_per_100000,29.8,2,False
+2020,Male,40-59,rate_per_100000,167.2,2,False
+2020,Male,60+,rate_per_100000,558.8,2,False
+2020,Total,0-13,rate_per_100000,5.4,2,True
+2020,Total,14-17,rate_per_100000,9.8,2,True
+2020,Total,18-29,rate_per_100000,12.8,2,True
+2020,Total,30-34,rate_per_100000,26.9,2,True
+2020,Total,35-39,rate_per_100000,47.1,2,True
+2020,Total,40-59,rate_per_100000,192.8,2,True
+2020,Total,60+,rate_per_100000,453.8,2,True
+2021,Total,All ages,absolute_cases,13644.0,0,True
+2021,Female,All ages,absolute_cases,7207.0,1,True
+2021,Male,All ages,absolute_cases,6437.0,1,True
+2021,Female,0-13,absolute_cases,30.0,2,False
+2021,Female,14-17,absolute_cases,23.0,2,False
+2021,Female,18-29,absolute_cases,119.0,2,False
+2021,Female,30-34,absolute_cases,198.0,2,False
+2021,Female,35-39,absolute_cases,344.0,2,False
+2021,Female,40-59,absolute_cases,3265.0,2,False
+2021,Female,60+,absolute_cases,3228.0,2,False
+2021,Male,0-13,absolute_cases,57.0,2,False
+2021,Male,14-17,absolute_cases,21.0,2,False
+2021,Male,18-29,absolute_cases,111.0,2,False
+2021,Male,30-34,absolute_cases,98.0,2,False
+2021,Male,35-39,absolute_cases,163.0,2,False
+2021,Male,40-59,absolute_cases,2400.0,2,False
+2021,Male,60+,absolute_cases,3587.0,2,False
+2021,Total,0-13,absolute_cases,87.0,2,True
+2021,Total,14-17,absolute_cases,44.0,2,True
+2021,Total,18-29,absolute_cases,230.0,2,True
+2021,Total,30-34,absolute_cases,296.0,2,True
+2021,Total,35-39,absolute_cases,507.0,2,True
+2021,Total,40-59,absolute_cases,5665.0,2,True
+2021,Total,60+,absolute_cases,6815.0,2,True
+2021,Total,All ages,rate_per_100000,135.8,0,True
+2021,Female,All ages,rate_per_100000,142.8,1,True
+2021,Male,All ages,rate_per_100000,128.8,1,True
+2021,Female,0-13,rate_per_100000,3.0,2,False
+2021,Female,14-17,rate_per_100000,8.5,2,False
+2021,Female,18-29,rate_per_100000,13.8,2,False
+2021,Female,30-34,rate_per_100000,41.1,2,False
+2021,Female,35-39,rate_per_100000,81.5,2,False
+2021,Female,40-59,rate_per_100000,253.7,2,False
+2021,Female,60+,rate_per_100000,439.0,2,False
+2021,Male,0-13,rate_per_100000,5.1,2,False
+2021,Male,14-17,rate_per_100000,6.7,2,False
+2021,Male,18-29,rate_per_100000,12.7,2,False
+2021,Male,30-34,rate_per_100000,21.5,2,False
+2021,Male,35-39,rate_per_100000,39.6,2,False
+2021,Male,40-59,rate_per_100000,197.2,2,False
+2021,Male,60+,rate_per_100000,599.1,2,False
+2021,Total,0-13,rate_per_100000,4.1,2,True
+2021,Total,14-17,rate_per_100000,7.5,2,True
+2021,Total,18-29,rate_per_100000,13.3,2,True
+2021,Total,30-34,rate_per_100000,31.5,2,True
+2021,Total,35-39,rate_per_100000,60.8,2,True
+2021,Total,40-59,rate_per_100000,226.2,2,True
+2021,Total,60+,rate_per_100000,510.9,2,True
+2022,Total,All ages,absolute_cases,13924.0,0,True
+2022,Female,All ages,absolute_cases,7322.0,1,True
+2022,Male,All ages,absolute_cases,6602.0,1,True
+2022,Female,0-13,absolute_cases,71.0,2,False
+2022,Female,14-17,absolute_cases,26.0,2,False
+2022,Female,18-29,absolute_cases,135.0,2,False
+2022,Female,30-34,absolute_cases,220.0,2,False
+2022,Female,35-39,absolute_cases,367.0,2,False
+2022,Female,40-59,absolute_cases,3407.0,2,False
+2022,Female,60+,absolute_cases,3096.0,2,False
+2022,Male,0-13,absolute_cases,65.0,2,False
+2022,Male,14-17,absolute_cases,38.0,2,False
+2022,Male,18-29,absolute_cases,127.0,2,False
+2022,Male,30-34,absolute_cases,97.0,2,False
+2022,Male,35-39,absolute_cases,175.0,2,False
+2022,Male,40-59,absolute_cases,2416.0,2,False
+2022,Male,60+,absolute_cases,3684.0,2,False
+2022,Total,0-13,absolute_cases,136.0,2,True
+2022,Total,14-17,absolute_cases,64.0,2,True
+2022,Total,18-29,absolute_cases,262.0,2,True
+2022,Total,30-34,absolute_cases,317.0,2,True
+2022,Total,35-39,absolute_cases,542.0,2,True
+2022,Total,40-59,absolute_cases,5823.0,2,True
+2022,Total,60+,absolute_cases,6780.0,2,True
+2022,Total,All ages,rate_per_100000,137.9,0,True
+2022,Female,All ages,rate_per_100000,144.4,1,True
+2022,Male,All ages,rate_per_100000,131.4,1,True
+2022,Female,0-13,rate_per_100000,7.3,2,False
+2022,Female,14-17,rate_per_100000,9.2,2,False
+2022,Female,18-29,rate_per_100000,16.2,2,False
+2022,Female,30-34,rate_per_100000,45.6,2,False
+2022,Female,35-39,rate_per_100000,84.0,2,False
+2022,Female,40-59,rate_per_100000,263.0,2,False
+2022,Female,60+,rate_per_100000,400.3,2,False
+2022,Male,0-13,rate_per_100000,5.9,2,False
+2022,Male,14-17,rate_per_100000,11.7,2,False
+2022,Male,18-29,rate_per_100000,14.8,2,False
+2022,Male,30-34,rate_per_100000,21.4,2,False
+2022,Male,35-39,rate_per_100000,41.3,2,False
+2022,Male,40-59,rate_per_100000,196.6,2,False
+2022,Male,60+,rate_per_100000,585.4,2,False
+2022,Total,0-13,rate_per_100000,6.6,2,True
+2022,Total,14-17,rate_per_100000,10.5,2,True
+2022,Total,18-29,rate_per_100000,15.5,2,True
+2022,Total,30-34,rate_per_100000,33.9,2,True
+2022,Total,35-39,rate_per_100000,63.0,2,True
+2022,Total,40-59,rate_per_100000,230.7,2,True
+2022,Total,60+,rate_per_100000,483.3,2,True
+2023,Total,All ages,absolute_cases,13666.0,0,True
+2023,Female,All ages,absolute_cases,7224.0,1,True
+2023,Male,All ages,absolute_cases,6442.0,1,True
+2023,Female,0-13,absolute_cases,41.0,2,False
+2023,Female,14-17,absolute_cases,18.0,2,False
+2023,Female,18-29,absolute_cases,140.0,2,False
+2023,Female,30-34,absolute_cases,212.0,2,False
+2023,Female,35-39,absolute_cases,350.0,2,False
+2023,Female,40-59,absolute_cases,3476.0,2,False
+2023,Female,60+,absolute_cases,2987.0,2,False
+2023,Male,0-13,absolute_cases,66.0,2,False
+2023,Male,14-17,absolute_cases,30.0,2,False
+2023,Male,18-29,absolute_cases,108.0,2,False
+2023,Male,30-34,absolute_cases,112.0,2,False
+2023,Male,35-39,absolute_cases,139.0,2,False
+2023,Male,40-59,absolute_cases,2464.0,2,False
+2023,Male,60+,absolute_cases,3523.0,2,False
+2023,Total,0-13,absolute_cases,107.0,2,True
+2023,Total,14-17,absolute_cases,48.0,2,True
+2023,Total,18-29,absolute_cases,248.0,2,True
+2023,Total,30-34,absolute_cases,324.0,2,True
+2023,Total,35-39,absolute_cases,489.0,2,True
+2023,Total,40-59,absolute_cases,5940.0,2,True
+2023,Total,60+,absolute_cases,6510.0,2,True
+2023,Total,All ages,rate_per_100000,134.6,0,True
+2023,Female,All ages,rate_per_100000,141.6,1,True
+2023,Male,All ages,rate_per_100000,127.5,1,True
+2023,Female,0-13,rate_per_100000,4.3,2,False
+2023,Female,14-17,rate_per_100000,6.1,2,False
+2023,Female,18-29,rate_per_100000,17.3,2,False
+2023,Female,30-34,rate_per_100000,44.5,2,False
+2023,Female,35-39,rate_per_100000,77.5,2,False
+2023,Female,40-59,rate_per_100000,265.6,2,False
+2023,Female,60+,rate_per_100000,366.3,2,False
+2023,Male,0-13,rate_per_100000,6.2,2,False
+2023,Male,14-17,rate_per_100000,8.8,2,False
+2023,Male,18-29,rate_per_100000,12.7,2,False
+2023,Male,30-34,rate_per_100000,25.1,2,False
+2023,Male,35-39,rate_per_100000,32.0,2,False
+2023,Male,40-59,rate_per_100000,197.9,2,False
+2023,Male,60+,rate_per_100000,531.6,2,False
+2023,Total,0-13,rate_per_100000,5.3,2,True
+2023,Total,14-17,rate_per_100000,7.6,2,True
+2023,Total,18-29,rate_per_100000,14.9,2,True
+2023,Total,30-34,rate_per_100000,35.2,2,True
+2023,Total,35-39,rate_per_100000,55.2,2,True
+2023,Total,40-59,rate_per_100000,232.6,2,True
+2023,Total,60+,rate_per_100000,440.4,2,True
+2024,Total,All ages,absolute_cases,15164.0,0,True
+2024,Female,All ages,absolute_cases,8051.0,1,True
+2024,Male,All ages,absolute_cases,7113.0,1,True
+2024,Female,0-13,absolute_cases,65.0,2,False
+2024,Female,14-17,absolute_cases,33.0,2,False
+2024,Female,18-29,absolute_cases,171.0,2,False
+2024,Female,30-34,absolute_cases,254.0,2,False
+2024,Female,35-39,absolute_cases,417.0,2,False
+2024,Female,40-59,absolute_cases,3800.0,2,False
+2024,Female,60+,absolute_cases,3311.0,2,False
+2024,Male,0-13,absolute_cases,74.0,2,False
+2024,Male,14-17,absolute_cases,37.0,2,False
+2024,Male,18-29,absolute_cases,152.0,2,False
+2024,Male,30-34,absolute_cases,144.0,2,False
+2024,Male,35-39,absolute_cases,191.0,2,False
+2024,Male,40-59,absolute_cases,2663.0,2,False
+2024,Male,60+,absolute_cases,3852.0,2,False
+2024,Total,0-13,absolute_cases,139.0,2,True
+2024,Total,14-17,absolute_cases,70.0,2,True
+2024,Total,18-29,absolute_cases,323.0,2,True
+2024,Total,30-34,absolute_cases,398.0,2,True
+2024,Total,35-39,absolute_cases,608.0,2,True
+2024,Total,40-59,absolute_cases,6463.0,2,True
+2024,Total,60+,absolute_cases,7163.0,2,True
+2024,Total,All ages,rate_per_100000,148.6,0,True
+2024,Female,All ages,rate_per_100000,157.1,1,True
+2024,Male,All ages,rate_per_100000,140.1,1,True
+2024,Female,0-13,rate_per_100000,7.1,2,False
+2024,Female,14-17,rate_per_100000,10.7,2,False
+2024,Female,18-29,rate_per_100000,21.6,2,False
+2024,Female,30-34,rate_per_100000,55.0,2,False
+2024,Female,35-39,rate_per_100000,89.5,2,False
+2024,Female,40-59,rate_per_100000,286.5,2,False
+2024,Female,60+,rate_per_100000,385.4,2,False
+2024,Male,0-13,rate_per_100000,7.1,2,False
+2024,Male,14-17,rate_per_100000,10.5,2,False
+2024,Male,18-29,rate_per_100000,17.9,2,False
+2024,Male,30-34,rate_per_100000,33.3,2,False
+2024,Male,35-39,rate_per_100000,42.9,2,False
+2024,Male,40-59,rate_per_100000,210.5,2,False
+2024,Male,60+,rate_per_100000,552.6,2,False
+2024,Total,0-13,rate_per_100000,7.1,2,True
+2024,Total,14-17,rate_per_100000,10.6,2,True
+2024,Total,18-29,rate_per_100000,19.7,2,True
+2024,Total,30-34,rate_per_100000,44.5,2,True
+2024,Total,35-39,rate_per_100000,66.7,2,True
+2024,Total,40-59,rate_per_100000,249.4,2,True
+2024,Total,60+,rate_per_100000,460.3,2,True
