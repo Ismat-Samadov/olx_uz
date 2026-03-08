@@ -1,142 +1,168 @@
+"""
+OLX.uz real estate scraper.
+Uses curl_cffi (Chrome TLS fingerprint) for HTTP and asyncio for concurrency.
+Parses listing cards from HTML using BeautifulSoup.
+Output: data/data.csv
+"""
+
 import asyncio
-import aiohttp
-import json
 import csv
 import re
 from pathlib import Path
 
+from bs4 import BeautifulSoup
+from curl_cffi.requests import AsyncSession
+
 BASE_URL = "https://www.olx.uz/nedvizhimost/"
-TOTAL_PAGES = 3
+TOTAL_PAGES = 25
+BATCH_SIZE = 5  # concurrent requests per batch
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "data.csv"
+OLX_ORIGIN = "https://www.olx.uz"
 
 HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/123.0.0.0 Safari/537.36"
-    ),
+    "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
     "Accept": (
         "text/html,application/xhtml+xml,application/xml;q=0.9,"
-        "image/avif,image/webp,image/apng,*/*;q=0.8,"
-        "application/signed-exchange;v=b3;q=0.7"
+        "image/avif,image/webp,image/apng,*/*;q=0.8"
     ),
-    "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Cache-Control": "max-age=0",
-    "Sec-Ch-Ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-    "Sec-Ch-Ua-Mobile": "?0",
-    "Sec-Ch-Ua-Platform": '"Windows"',
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "Upgrade-Insecure-Requests": "1",
-    "Connection": "keep-alive",
 }
 
-CSV_FIELDS = ["title", "price", "currency", "location", "url", "image", "valid_until"]
+CSV_FIELDS = ["id", "title", "price", "currency", "location", "date", "url", "image"]
+
+
+# ---------------------------------------------------------------------------
+# Parsing
+# ---------------------------------------------------------------------------
+
+def _clean(text: str) -> str:
+    return re.sub(r"\s+", " ", text or "").strip()
+
+
+def parse_price(raw: str) -> tuple[str, str]:
+    """Return (price_digits, currency)."""
+    raw = _clean(raw)
+    # Strip HTML tags
+    raw = re.sub(r"<[^>]+>", "", raw)
+    raw = _clean(raw)
+    # Currency symbols
+    for sym, code in [("сум", "UZS"), ("$", "USD"), ("€", "EUR")]:
+        if sym in raw:
+            digits = re.sub(r"[^\d]", "", raw.split(sym)[0])
+            return digits, code
+    # Fallback: everything that isn't a digit → currency suffix
+    digits = re.sub(r"[^\d]", "", raw)
+    return digits, "UZS"
 
 
 def extract_listings(html: str) -> list[dict]:
-    """Parse all application/ld+json blocks and extract Offer items."""
-    listings = []
-    scripts = re.findall(
-        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
-        html,
-        re.DOTALL | re.IGNORECASE,
-    )
-    for raw in scripts:
-        try:
-            data = json.loads(raw.strip())
-        except json.JSONDecodeError:
-            continue
-
-        # Flatten: data may be a single object or a list
-        nodes = data if isinstance(data, list) else [data]
-        for node in nodes:
-            offers = _collect_offers(node)
-            listings.extend(offers)
-
-    return listings
-
-
-def _collect_offers(node) -> list[dict]:
-    """Recursively collect Offer objects from a JSON-LD node."""
+    soup = BeautifulSoup(html, "html.parser")
+    cards = soup.find_all(attrs={"data-cy": "l-card"})
     results = []
-    if not isinstance(node, dict):
-        return results
+    seen_ids: set[str] = set()
 
-    node_type = node.get("@type", "")
+    for card in cards:
+        card_id = card.get("id", "")
+        if card_id in seen_ids:
+            continue
+        seen_ids.add(card_id)
 
-    if node_type == "Offer":
-        results.append(_parse_offer(node))
-    elif node_type in ("Product", "ItemList"):
-        # Product may wrap an Offer inside 'offers'
-        offers_field = node.get("offers")
-        if offers_field:
-            for o in (offers_field if isinstance(offers_field, list) else [offers_field]):
-                results.extend(_collect_offers(o))
-        # ItemList has 'itemListElement'
-        for element in node.get("itemListElement", []):
-            results.extend(_collect_offers(element.get("item", element)))
-    else:
-        # Walk all dict values
-        for value in node.values():
-            if isinstance(value, (dict, list)):
-                items = value if isinstance(value, list) else [value]
-                for item in items:
-                    results.extend(_collect_offers(item))
+        # --- URL ---
+        link_tag = card.find("a", href=True)
+        href = link_tag["href"] if link_tag else ""
+        # Strip query params for a clean URL
+        clean_href = href.split("?")[0]
+        url = OLX_ORIGIN + clean_href if clean_href.startswith("/") else clean_href
+
+        # --- Title ---
+        title_el = card.find(attrs={"data-cy": "ad-card-title"})
+        title = ""
+        if title_el:
+            h_tag = title_el.find(re.compile(r"^h\d$"))
+            title = _clean(h_tag.get_text(" ") if h_tag else title_el.get_text(" "))
+
+        # --- Price ---
+        price_el = card.find(attrs={"data-testid": "ad-price"})
+        price_raw = price_el.get_text(" ") if price_el else ""
+        price, currency = parse_price(price_raw)
+
+        # --- Location & Date ---
+        loc_el = card.find(attrs={"data-testid": "location-date"})
+        location, date = "", ""
+        if loc_el:
+            parts = [_clean(p) for p in loc_el.get_text(" - ").split(" - ") if _clean(p)]
+            location = parts[0] if parts else ""
+            date = parts[1] if len(parts) > 1 else ""
+
+        # --- Image ---
+        img_tag = card.find("img")
+        image = ""
+        if img_tag:
+            image = img_tag.get("src") or img_tag.get("data-src") or ""
+
+        results.append({
+            "id": card_id,
+            "title": title,
+            "price": price,
+            "currency": currency,
+            "location": location,
+            "date": date,
+            "url": url,
+            "image": image,
+        })
 
     return results
 
 
-def _parse_offer(offer: dict) -> dict:
-    area = offer.get("areaServed", {})
-    location = area.get("name", "") if isinstance(area, dict) else str(area)
+# ---------------------------------------------------------------------------
+# Async fetching
+# ---------------------------------------------------------------------------
 
-    images = offer.get("image", [])
-    image = images[0] if isinstance(images, list) and images else (images or "")
-
-    return {
-        "title": offer.get("name", "").strip(),
-        "price": offer.get("price", ""),
-        "currency": offer.get("priceCurrency", "UZS"),
-        "location": location,
-        "url": offer.get("url", ""),
-        "image": image,
-        "valid_until": offer.get("priceValidUntil", ""),
-    }
-
-
-async def fetch_page(session: aiohttp.ClientSession, page: int) -> str:
+async def fetch_page(session: AsyncSession, page: int) -> tuple[int, str]:
     url = BASE_URL if page == 1 else f"{BASE_URL}?page={page}"
-    async with session.get(url, headers=HEADERS, allow_redirects=True) as resp:
-        resp.raise_for_status()
-        return await resp.text()
+    resp = await session.get(url, headers=HEADERS)
+    resp.raise_for_status()
+    return page, resp.text
 
 
 async def scrape(pages: int = TOTAL_PAGES) -> list[dict]:
-    connector = aiohttp.TCPConnector(limit=5)
-    timeout = aiohttp.ClientTimeout(total=30)
-    cookie_jar = aiohttp.CookieJar()
+    page_results: list[tuple[int, str]] = []
 
-    async with aiohttp.ClientSession(
-        connector=connector, timeout=timeout, cookie_jar=cookie_jar
-    ) as session:
-        tasks = [fetch_page(session, p) for p in range(1, pages + 1)]
-        results = await asyncio.gather(*tasks, return_exceptions=True)
+    async with AsyncSession(impersonate="chrome120") as session:
+        # Page 1 first to warm up cookies
+        page_results.append(await fetch_page(session, 1))
+        print(f"[page 1] fetched")
 
-    all_listings = []
-    for page_num, result in enumerate(results, start=1):
-        if isinstance(result, Exception):
-            print(f"[page {page_num}] error: {result}")
-            continue
-        listings = extract_listings(result)
-        print(f"[page {page_num}] found {len(listings)} listings")
-        all_listings.extend(listings)
+        # Remaining pages in batches to avoid rate limiting
+        remaining = list(range(2, pages + 1))
+        for batch_start in range(0, len(remaining), BATCH_SIZE):
+            batch = remaining[batch_start : batch_start + BATCH_SIZE]
+            results = await asyncio.gather(
+                *[fetch_page(session, p) for p in batch],
+                return_exceptions=True,
+            )
+            for p, r in zip(batch, results):
+                if isinstance(r, Exception):
+                    print(f"[page {p}] error: {r}")
+                else:
+                    page_results.append(r)
+                    print(f"[page {p}] fetched")
+
+    all_listings: list[dict] = []
+    seen_ids: set[str] = set()
+
+    for page_num, html in sorted(page_results):
+        listings = extract_listings(html)
+        new = [l for l in listings if l["id"] not in seen_ids]
+        seen_ids.update(l["id"] for l in new)
+        print(f"[page {page_num}] found {len(listings)} cards, {len(new)} unique")
+        all_listings.extend(new)
 
     return all_listings
 
+
+# ---------------------------------------------------------------------------
+# Output
+# ---------------------------------------------------------------------------
 
 def save_csv(listings: list[dict], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -144,11 +170,11 @@ def save_csv(listings: list[dict], path: Path) -> None:
         writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
         writer.writeheader()
         writer.writerows(listings)
-    print(f"Saved {len(listings)} rows → {path}")
+    print(f"Saved {len(listings)} rows -> {path}")
 
 
 async def main():
-    listings = await scrape(TOTAL_PAGES)
+    listings = await scrape()
     if listings:
         save_csv(listings, OUTPUT_PATH)
     else:
