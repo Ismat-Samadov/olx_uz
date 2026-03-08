@@ -1,9 +1,9 @@
 # Uzbekistan Real Estate Market — Executive Intelligence Report
 
-**Source:** OLX.uz — Uzbekistan's largest property marketplace
-**Listings Analyzed:** 1,127 active listings (filtered for validity)
-**Snapshot Date:** March 8, 2026
-**Currency:** All prices converted to USD at 12,700 UZS/USD
+- **Source:** OLX.uz — Uzbekistan's largest property marketplace
+- **Listings Analyzed:** 1,127 active listings (filtered for validity)
+- **Snapshot Date:** March 8, 2026
+- **Currency:** All prices converted to USD at 12,700 UZS/USD
 
 ---
 
