@@ -162,4 +162,5 @@ Of the 124 rental listings across all of Uzbekistan, the overwhelming majority a
 
 ---
 
-*Analysis based on 1,127 OLX.uz real estate listings captured on March 8, 2026. Prices converted at 12,700 UZS/USD. Properties priced below $79 (1,000,000 UZS) were excluded as likely test or erroneous entries.*
+- *Analysis based on 1,127 OLX.uz real estate listings captured on March 8, 2026.*
+- *Prices converted at 12,700 UZS/USD. Properties priced below $79 (1,000,000 UZS) were excluded as likely test or erroneous entries.*
