@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* ── Base reset ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #07071a;
+  color: #e2e8f0;
+  font-family: 'Courier New', Courier, monospace;
+  /* Prevent pull-to-refresh / overscroll on mobile */
+  overscroll-behavior: none;
+}
+
+/* ── Neon scrollbar ── */
+::-webkit-scrollbar        { width: 6px; }
+::-webkit-scrollbar-track  { background: #0a0a1e; }
+::-webkit-scrollbar-thumb  { background: #334466; border-radius: 3px; }
+
+/* ── Canvas touch support ── */
+canvas {
+  display: block;
+  touch-action: none;
+}

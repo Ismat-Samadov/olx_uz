@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Dark background -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#07071a"/>
+    </radialGradient>
+    <!-- Red bubble -->
+    <radialGradient id="r" cx="35%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#ffaacc"/>
+      <stop offset="40%" stop-color="#ff3366"/>
+      <stop offset="100%" stop-color="#7a001f"/>
+    </radialGradient>
+    <!-- Blue bubble -->
+    <radialGradient id="b" cx="35%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#aaddff"/>
+      <stop offset="40%" stop-color="#00aaff"/>
+      <stop offset="100%" stop-color="#003d7a"/>
+    </radialGradient>
+    <!-- Green bubble -->
+    <radialGradient id="g" cx="35%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#aaffcc"/>
+      <stop offset="40%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#006633"/>
+    </radialGradient>
+    <!-- Purple bubble -->
+    <radialGradient id="p" cx="35%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#ddaaff"/>
+      <stop offset="40%" stop-color="#cc44ff"/>
+      <stop offset="100%" stop-color="#4a0066"/>
+    </radialGradient>
+    <!-- Glow filters -->
+    <filter id="glow-r"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow-b"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow-g"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow-p"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- Row 1: two bubbles centred -->
+  <circle cx="22" cy="18" r="10" fill="url(#r)" filter="url(#glow-r)"/>
+  <circle cx="42" cy="18" r="10" fill="url(#b)" filter="url(#glow-b)"/>
+
+  <!-- Row 2: three bubbles -->
+  <circle cx="12" cy="35" r="10" fill="url(#g)" filter="url(#glow-g)"/>
+  <circle cx="32" cy="35" r="10" fill="url(#p)" filter="url(#glow-p)"/>
+  <circle cx="52" cy="35" r="10" fill="url(#r)" filter="url(#glow-r)"/>
+
+  <!-- Shooter nub at bottom -->
+  <rect x="28" y="50" width="8" height="10" rx="3" fill="#00ffee" opacity="0.85"/>
+  <circle cx="32" cy="56" r="5" fill="#00ffee" opacity="0.5"/>
+</svg>
